@@ -1,9 +1,12 @@
 # dependencies
 node_modules
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 .npm
 web_modules/
 
@@ -28,3 +31,6 @@ lib-cov
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# built files
+bin
