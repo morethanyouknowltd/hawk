@@ -1,6 +1,6 @@
 {
   "name": "@mtyk/hawk",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Nodemon replacement",
   "bin": "bin/hawk.js",
   "index": "bin/hawk.js",
@@ -16,8 +16,7 @@
   "scripts": {
     "build": "swc src --out-dir bin",
     "watch": "swc src --out-dir bin --watch",
-    "prepublish": "yarn build",
-    "publish": "yarn publish"
+    "prepublish": "yarn build"
   },
   "packageManager": "yarn@3.1.1",
   "dependencies": {
