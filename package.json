@@ -1,6 +1,6 @@
 {
   "name": "@mtyk/hawk",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Nodemon replacement",
   "bin": "bin/hawk.js",
   "index": "bin/hawk.js",
